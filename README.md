@@ -7,7 +7,7 @@ It's an open source project that can be used for free for everyone CSS framework
 In the terminal
 
 ```
-git clone git clone https://github.com/Nooaah/FrameworkGrid.git
+git clone https://github.com/Nooaah/FrameworkGrid.git
 ```
 
 OR 
