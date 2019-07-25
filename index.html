@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="all.css">
     <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="js/script.js"></script>
     <title>FrameworkGrid - An Open-source project based on grid CSS system</title>
 </head>
 
@@ -47,6 +48,8 @@
 
     <div class="container pt-5">
         <h1 id="presentation"><i class="fas fa-code-branch"></i> Why use <b>FrameworkGrid</b> bro ?</h1>
+        <br>
+        <h4 style="font-weight:100;">We use the icon of Fontawesome</h4>
         <div class="row pt-5 mt-1 pb-5">
             <div class="col-4 align-center">
                 <i class="fas fa-fighter-jet fa-3x" style="color:rgb(32, 60, 114);"></i>
@@ -94,18 +97,68 @@
                     <p class="open-source-github">
                         <i class="fas fa-code mr-1"></i>&nbsp;
 
-                        &lt;<span style="color:rgb(100, 100, 245);">link rel</span>="stylesheet" 
+                        &lt;<span style="color:rgb(100, 100, 245);">link rel</span>="stylesheet"
                         <span style="color:rgb(100, 100, 245);">href</span>="all.css"&gt; &nbsp;&nbsp;&nbsp;
                         <span style="color:rgb(42, 184, 42)">&lt;!-- In the <b>&lt;head&gt;</b> of your page --&gt;</span>
                     </p>
                 </p>
-                <button onclick="toast()" class="btn btn-elegant">Toast</button>
-                <div class="toast">
-                    
+
+                <h1 class="mt-5 mb-5">Exemple of the Framework</h1>
+
+                
+                <fieldset class="mt-4">
+                    <legend>Toast event</legend>
+                    <div style="width:500px;margin:auto;">
+                        <div class="row">
+                            <div class="col-2">
+                                <center><button class="btn btn-elegant" id="toastBtn" style="width:150px;">Toast</button></center>
+                            </div>
+                            <div class="col-2">
+                                <center><button class="btn btn-alert" id="toastAlertBtn" style="width:150px;">alert
+                                        Toast</button></center>
+                            </div>
+                        </div>
+                        <ul id="_toast" class="_toast"></ul>
+                    </div>
+                </fieldset>
+
+
+            </div>
+        </div>
+
+
+        <div>
+            <div class="row">
+                <div class="col-1 mt-5">
+                    <fieldset>
+                        <legend>Full name social buttons</legend>
+                        <button type="button" class="btn btn-fb mt-1"><i class="fab fa-facebook-f pr-1"></i> Facebook</button>
+                        <button type="button" class="btn btn-tw mt-1"><i class="fab fa-twitter pr-1"></i> Twitter</button>
+                        <button type="button" class="btn btn-gplus mt-1"><i class="fab fa-google-plus-g pr-1"></i>
+                            Google +</button>
+                        <button type="button" class="btn btn-li mt-1"><i class="fab fa-linkedin-in pr-1"></i> Linkedin</button>
+                        <button type="button" class="btn btn-ins mt-1"><i class="fab fa-instagram pr-1"></i> Instagram</button>
+                        <button type="button" class="btn btn-pin mt-1"><i class="fab fa-pinterest pr-1"></i> Pinterest</button>
+                        <button type="button" class="btn btn-vk mt-1"><i class="fab fa-vk pr-1"></i> Vkontakte</button>
+                        <button type="button" class="btn btn-so mt-1"><i class="fab fa-stack-overflow pr-1"></i> Stack
+                            Overflow</button>
+                        <button type="button" class="btn btn-yt mt-1"><i class="fab fa-youtube pr-1"></i> Youtube</button>
+                        <button type="button" class="btn btn-slack mt-1"><i class="fab fa-slack-hash pr-1"></i> Slack</button>
+                        <button type="button" class="btn btn-git mt-1"><i class="fab fa-github pr-1"></i> Github</button>
+                        <button type="button" class="btn btn-comm mt-1"><i class="fas fa-comments pr-1"></i> Comments</button>
+                        <button type="button" class="btn btn-email mt-1"><i class="fas fa-envelope pr-1"></i> Email</button>
+                        <button type="button" class="btn btn-dribbble mt-1"><i class="fab fa-dribbble pr-1"></i>
+                            Dribbble</button>
+                        <button type="button" class="btn btn-reddit mt-1"><i class="fab fa-reddit-alien pr-1"></i>
+                            Reddit</button>
+                    </fieldset>
                 </div>
             </div>
         </div>
+
+
     </div>
+
 
 
     <div class="footer">
