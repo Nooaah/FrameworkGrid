@@ -1,4 +1,4 @@
-@import "../fontawesome/css/all.min.css";
+@import "https://use.fontawesome.com/releases/v5.6.3/css/all.css";
 
 *
 {
@@ -257,7 +257,7 @@ b > b
 {
     padding-right:10px;
 }
-.btn-dark
+.btn-elegant
 {
     background-color: rgb(43, 41, 41);
 }
